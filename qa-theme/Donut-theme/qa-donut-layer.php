@@ -1024,7 +1024,7 @@
                     foreach ( $ranking['items'] as $user ) {
                         $this->output( '<div class="user-box col-sm-' . ceil( 12 / $columns ) . ' col-xs-12">' );
                         $user_raw = !empty( $user['raw'] ) ? $user['raw'] : $user;
-                        
+
                         $handle_html = @$usershtml[$user_raw['userid']];
 
                         if ( defined( 'QA_WORDPRESS_INTEGRATE_PATH' ) ) {
@@ -1343,7 +1343,7 @@
         {
             $this->output(
                     '<div class="qa-attribution">',
-                    '<a href="https://github.com/amiyasahu/Donut">Donut Theme</a> <span class="fa fa-code"></span> with <span class="fa fa-heart"></span> by <a href="http://amiyasahu.github.io">Amiya Sahu</a>',
+                    'Plateforme créée avec <span class="fa fa-heart"></span> par <a href="https://neayi.com/">Neayi</a>',
                     '</div>'
             );
         }
@@ -1378,10 +1378,10 @@
                 Output the widgets (as provided in $this->content['widgets']) for $region and $place
             */
         {
-            if ( isset($this->content['widgets'][$region][$place]) && 
-                  is_array($this->content['widgets'][$region][$place]) && 
+            if ( isset($this->content['widgets'][$region][$place]) &&
+                  is_array($this->content['widgets'][$region][$place]) &&
                   !empty($this->content['widgets'][$region][$place]) ) {
-                
+
                 $col = ( $region == 'full' ) ? ' col-xs-12' : '';
 
                 $this->output( '<div class="qa-widgets-' . $region . ' qa-widgets-' . $region . '-' . $place . $col . '">' );

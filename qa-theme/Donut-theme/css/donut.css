@@ -2954,6 +2954,63 @@ header#nav-header {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+.qa-q-list-item .qa-q-item-stats {
+  float: left;
+  width: 16.66666667%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: right !important;
+}
+@media (min-width: 768px) {
+  .qa-q-list-item .qa-q-item-stats {
+    float: left;
+    width: 25%;
+  }
+}
+@media (min-width: 992px) {
+  .qa-q-list-item .qa-q-item-stats {
+    float: left;
+    width: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  .qa-q-list-item .qa-q-item-stats {
+    float: left;
+    width: 25%;
+  }
+}
+.qa-q-list-item .qa-q-item-stats .qa-voting,
+.qa-q-list-item .qa-q-item-stats .qa-a-count {
+  float: right;
+}
+.qa-q-list-item .qa-q-item-main {
+  float: left;
+  width: 83.33333333%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .qa-q-list-item .qa-q-item-main {
+    float: left;
+    width: 75%;
+  }
+}
+@media (min-width: 992px) {
+  .qa-q-list-item .qa-q-item-main {
+    float: left;
+    width: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  .qa-q-list-item .qa-q-item-main {
+    float: left;
+    width: 75%;
+  }
+}
 .qa-template-user-answers .qa-q-item-stats,
 .qa-template-user-activity .qa-q-item-stats {
   float: left;
@@ -4011,3 +4068,16 @@ a.qa-browse-cat-link:visited {
 .qa-template-favorites .qa-q-list {
   float: none;
 }
+.qa-widget-side h2 {
+  font-size: 18px;
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 10px !important;
+}
+.qa-widget-side .wiki_description {
+  font-size: 14px;
+  margin: 20px;
+  font-style: italic;
+}
+/*# sourceMappingURL=donut.css.map */
